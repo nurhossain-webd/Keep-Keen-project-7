@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { LuBell, LuArchive, LuTrash2, LuPhone, LuMessageSquare, LuVideo } from 'react-icons/lu';
+import QuickCheckIn from '@/Components/FriendDetails/QuickCheckIn';
 
 const FriendId = async ({ params }) => {
     const { friendId } = await params;
@@ -119,29 +120,7 @@ const FriendId = async ({ params }) => {
                             </span>
                         </p>
                     </div>
-
-                    <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
-                        <h3 className="mb-4 text-2xl font-semibold text-[#244D3F]">
-                            Quick Check-In
-                        </h3>
-
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <button className="rounded-lg border border-slate-200 py-6 shadow-sm flex flex-col items-center justify-center">
-                                <LuPhone size={26} />
-                                <span className="mt-2 text-base">Call</span>
-                            </button>
-
-                            <button className="rounded-lg border border-slate-200 py-6 shadow-sm flex flex-col items-center justify-center">
-                                <LuMessageSquare size={26} />
-                                <span className="mt-2 text-base">Text</span>
-                            </button>
-
-                            <button className="rounded-lg border border-slate-200 py-6 shadow-sm flex flex-col items-center justify-center">
-                                <LuVideo size={26} />
-                                <span className="mt-2 text-base">Video</span>
-                            </button>
-                        </div>
-                    </div>
+                    <QuickCheckIn friendName={friend.name} />
                 </div>
             </div>
         </div>
