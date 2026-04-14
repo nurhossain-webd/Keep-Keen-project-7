@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Emma Wilson",
+        "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+        "email": "emma.wilson@example.com",
+        "days_since_contact": 62,
+        "status": "overdue",
+        "tags": [
+            "family",
+            "mentor"
+        ],
+        "bio": "Former colleague who still gives me thoughtful life and career advice.",
+        "goal": 30,
+        "next_due_date": "2026-02-27"
+    },
+    {
+        "id": 2,
+        "name": "David Kim",
+        "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+        "email": "david.kim@example.com",
+        "days_since_contact": 24,
+        "status": "almost due",
+        "tags": [
+            "work",
+            "project partner"
+        ],
+        "bio": "Worked together on a product launch and still catch up about ideas and jobs.",
+        "goal": 30,
+        "next_due_date": "2026-04-20"
+    },
+    {
+        "id": 3,
+        "name": "Lisa Nakamura",
+        "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+        "email": "lisa.nakamura@example.com",
+        "days_since_contact": 10,
+        "status": "on-track",
+        "tags": [
+            "work",
+            "coffee buddy"
+        ],
+        "bio": "A dependable friend from the office who loves short coffee chats after busy weeks.",
+        "goal": 21,
+        "next_due_date": "2026-04-28"
+    },
+    {
+        "id": 4,
+        "name": "James Wright",
+        "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+        "email": "james.wright@example.com",
+        "days_since_contact": 41,
+        "status": "overdue",
+        "tags": [
+            "travel",
+            "hobby"
+        ],
+        "bio": "Met during a group trip and now we mostly talk about photography and travel plans.",
+        "goal": 21,
+        "next_due_date": "2026-04-05"
+    },
+    {
+        "id": 5,
+        "name": "Sarah Chen",
+        "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+        "email": "sarah.chen@example.com",
+        "days_since_contact": 18,
+        "status": "on-track",
+        "tags": [
+            "college",
+            "close friend"
+        ],
+        "bio": "One of my closest university friends. We often check in about work and family life.",
+        "goal": 30,
+        "next_due_date": "2026-04-26"
+    },
+    {
+        "id": 6,
+        "name": "Marcus Johnson",
+        "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+        "email": "marcus.johnson@example.com",
+        "days_since_contact": 27,
+        "status": "almost due",
+        "tags": [
+            "gym",
+            "neighbor"
+        ],
+        "bio": "A friendly neighbor I usually meet at the gym and occasionally call on weekends.",
+        "goal": 30,
+        "next_due_date": "2026-04-17"
+    },
+    {
+        "id": 7,
+        "name": "Olivia Martinez",
+        "picture": "https://randomuser.me/api/portraits/women/50.jpg",
+        "email": "olivia.martinez@example.com",
+        "days_since_contact": 7,
+        "status": "on-track",
+        "tags": [
+            "travel",
+            "creative"
+        ],
+        "bio": "A designer friend who shares inspiration, books, and travel recommendations.",
+        "goal": 20,
+        "next_due_date": "2026-05-01"
+    },
+    {
+        "id": 8,
+        "name": "Ryan O'Brien",
+        "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+        "email": "ryan.obrien@example.com",
+        "days_since_contact": 35,
+        "status": "overdue",
+        "tags": [
+            "startup",
+            "college"
+        ],
+        "bio": "A university friend who is now building a startup, so we usually reconnect after long gaps.",
+        "goal": 21,
+        "next_due_date": "2026-04-09"
+    },
+    {
+        "id": 9,
+        "name": "Aisha Patel",
+        "picture": "https://randomuser.me/api/portraits/women/36.jpg",
+        "email": "aisha.patel@example.com",
+        "days_since_contact": 14,
+        "status": "on-track",
+        "tags": [
+            "family",
+            "cousin"
+        ],
+        "bio": "My cousin who lives in another city. We mostly stay connected through video calls.",
+        "goal": 21,
+        "next_due_date": "2026-04-24"
+    },
+    {
+        "id": 10,
+        "name": "Tom Baker",
+        "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+        "email": "tom.baker@example.com",
+        "days_since_contact": 29,
+        "status": "almost due",
+        "tags": [
+            "book club",
+            "friend"
+        ],
+        "bio": "A thoughtful friend from a local book club. We meet occasionally and text about new reads.",
+        "goal": 30,
+        "next_due_date": "2026-04-15"
+    }
+]
