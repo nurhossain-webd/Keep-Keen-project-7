@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import FriendCard from './FriendCard';
+import Loader from '../Shared/Loader';
 
 const FrindCardsGrid = () => {
     return (
         <div>
             <p className='text-xl font-bold'>Your Friends</p>
             <div>
-                <FriendCard />
+                <Suspense fallback={<Loader />}>
+                    <FriendCard />
+                </Suspense>
             </div>
         </div>
     );
