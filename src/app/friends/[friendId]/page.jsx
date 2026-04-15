@@ -5,7 +5,7 @@ import QuickCheckIn from '@/Components/FriendDetails/QuickCheckIn';
 
 const FriendId = async ({ params }) => {
     const { friendId } = await params;
-    const res = await fetch('/friendsData/FriendsData.json');
+    const res = await fetch('/friendsData/FriendsData.json', { cache: 'no-store' });
     const friends = await res.json();
     const friend = friends.find(f => f.id === parseInt(friendId));
 

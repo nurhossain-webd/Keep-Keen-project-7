@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const FriendCard = async () => {
-    const friendsData = await fetch('/friendsData/FriendsData.json');
+    const friendsData = await fetch('/friendsData/FriendsData.json', { cache: 'no-store' });
     const friends = await friendsData.json();
 
     return (
