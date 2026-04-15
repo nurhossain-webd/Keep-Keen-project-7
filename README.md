@@ -17,8 +17,6 @@
 
 ## 📸 Project Preview
 
-> Save your project screenshot inside your repo, for example in `public/preview.png`, then keep this line:
-
 ![KeenKeeper Preview](./public/preview.png)
 
 ---
