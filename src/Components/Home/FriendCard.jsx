@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const FriendCard = async () => {
-    const friendsData = await fetch('keep-keen-project-7-alpha.vercel.app/friendsData/FriendsData.json');
+    const friendsData = await fetch('https://keep-keen-project-7-alpha.vercel.app/friendsData/FriendsData.json');
     const friends = await friendsData.json();
 
     return (
