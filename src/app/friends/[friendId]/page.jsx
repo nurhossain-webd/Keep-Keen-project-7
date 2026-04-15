@@ -5,7 +5,7 @@ import QuickCheckIn from '@/Components/FriendDetails/QuickCheckIn';
 
 const FriendId = async ({ params }) => {
     const { friendId } = await params;
-    const res = await fetch('/friendsData/FriendsData.json', { cache: 'no-store' });
+    const res = await fetch('keep-keen-project-7-alpha.vercel.app/friendsData/FriendsData.json');
     const friends = await res.json();
     const friend = friends.find(f => f.id === parseInt(friendId));
 
