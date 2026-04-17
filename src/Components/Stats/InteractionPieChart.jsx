@@ -12,12 +12,10 @@ const InteractionPieChart = () => {
     const video = timeline.filter(item => item.type === 'Video').length;
 
     const data = [
-        { name: 'Text', value: text },
-        { name: 'Call', value: call },
-        { name: 'Video', value: video },
+        { name: 'Text', value: text, fill: '#7C3AED' },
+        { name: 'Call', value: call, fill: '#244D3F' },
+        { name: 'Video', value: video, fill: '#45B36B' },
     ];
-
-    const COLORS = ['#7C3AED', '#244D3F', '#45B36B'];
 
     return (
         <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
@@ -38,9 +36,6 @@ const InteractionPieChart = () => {
                             outerRadius={85}
                             paddingAngle={6}
                         >
-                            {data.map((entry, index) => (
-                                <Cell key={`cell-${index}`} fill={COLORS[index]} />
-                            ))}
                         </Pie>
 
                         <Tooltip />

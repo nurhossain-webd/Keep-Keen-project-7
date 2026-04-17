@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { LuBell, LuArchive, LuTrash2, LuPhone, LuMessageSquare, LuVideo } from 'react-icons/lu';
-import QuickCheckIn from '@/Components/FriendDetails/QuickCheckIn';
+import QuickCheckIn from '@/Components/FriendIdQuickCheckInPart/QuickCheckIn';
 
 const FriendId = async ({ params }) => {
     const { friendId } = await params;

@@ -1,13 +1,12 @@
 'use client';
 
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { LuPhone, LuMessageSquare, LuVideo } from 'react-icons/lu';
 import { TimelineContextProvider } from '@/context/TimelineContext';
 import { toast, } from 'react-toastify';
 
 const QuickCheckIn = ({ friendName }) => {
     const { timeline, setTimeline } = useContext(TimelineContextProvider);
-    const [activeType, setActiveType] = useState('');
 
     const handleAdd = (type) => {
         const now = new Date();
@@ -22,10 +21,10 @@ const QuickCheckIn = ({ friendName }) => {
                 hour: '2-digit',
                 minute: '2-digit',
             }),
+            createdAt: now.toISOString(),
         };
 
         setTimeline([newEntry, ...timeline]);
-        setActiveType(type);
 
         toast.success(`${type} with ${friendName} `);
 

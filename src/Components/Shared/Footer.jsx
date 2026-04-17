@@ -18,21 +18,19 @@ const Footer = () => {
 
                     <div className="mt-4 flex items-center gap-4">
                         <a
-                            href="#"
                             className="w-10 h-10 rounded-full bg-white text-[#244D3F] flex items-center justify-center hover:scale-105 transition"
                         >
                             <FaInstagram size={18} />
                         </a>
 
                         <a
-                            href="#"
                             className="w-10 h-10 rounded-full bg-white text-[#244D3F] flex items-center justify-center hover:scale-105 transition"
                         >
                             <FaFacebookF size={16} />
                         </a>
 
                         <a
-                            href="#"
+
                             className="w-10 h-10 rounded-full bg-white text-[#244D3F] flex items-center justify-center hover:scale-105 transition"
                         >
                             <FaXTwitter size={16} />
